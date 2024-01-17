@@ -28,7 +28,14 @@ ul.navigation{
     align-self: center;
     margin: auto;
 }
-.animated-text{
+.bigtext{
+    font-size: 40px;
+}   
+#animated-text{
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 80px;
+    white-space: nowrap; 
+    overflow: hidden; 
 }
 
