@@ -47,7 +47,6 @@ hr {
     display: flex;
     gap: 25px;
     align-items: center;
-    
 
 }
 .my-description{
@@ -56,15 +55,53 @@ hr {
     gap: 5px;
     background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
     text-align: center ;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 }
-.aboutheading{
+#aboutheading{
     margin-bottom: 5px;
     font-size: 30px;
     align-self: center;
 }
 .bio{
     align-self: center;
-    font-size: 15px;
+    font-size: 20px;
 }
+.myprojects{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#projectsstart{
+    text-align: center;
+}
+.myprojects .ojtheapp{
+    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+    height: 300px;
+}
+.ojtheapp{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+i{
+    font-size: 100px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+i.devicon-github-original-wordmark {
+    font-size: 30px;
+}
+.todowebapp{
+    margin-left: 15px;
+    height: 100px;
+    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+
+}
+
+.game{
+    margin-left: 15px;
+    height: 100px;
+    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+}
+
 

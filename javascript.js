@@ -23,7 +23,6 @@ function updateText() {
   // Function to update each letter with a smooth transition
   async function updateLetters() {
     for (let i = 0; i < maxLength; i++) {
-      const currentChar = currentText[i] || "";
       const nextChar = getRandomLetter();
 
       // Show the current and next characters gradually
