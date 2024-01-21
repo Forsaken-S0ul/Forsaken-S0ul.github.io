@@ -27,12 +27,16 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="homesection">
+    <div id="homesection">
       <div class="HomeBar">
         <img class="OJ-LOGO" src="" width="auto" height="46px" alt="OJ-LOGO" />
         <ul class="navigation">
-          <li><h4>About</h4></li>
-          <li><h4>Projects</h4></li>
+          <li>
+            <a href="/#aboutsection"><h4>About</h4></a>
+          </li>
+          <li>
+            <a href="/#myprojects"><h4>My-projects</h4></a>
+          </li>
         </ul>
       </div>
       <div class="homesection-mainpage">
@@ -41,7 +45,7 @@
       </div>
     </div>
     <hr />
-    <div class="aboutsection">
+    <div id="aboutsection">
       <div class="mypic">
         <img
           width="650px"
@@ -51,7 +55,7 @@
         />
       </div>
       <div class="my-description">
-        <h3 id="aboutheading">About</h3>
+        <h3 class="aboutheading">About</h3>
         <span class="bio">
           I am a developer who is in a quest to be everything I thought
           programmers were when i was a kid for any other kid out there who
@@ -60,8 +64,8 @@
       </div>
     </div>
     <hr />
-    <div class="myprojects">
-      <h1 id="projectsstart"><u>Projects</u></h1>
+    <h1 class="projectsstart"><u>My-projects</u></h1>
+    <div id="myprojects">
       <div class="ojtheapp">
         <h2>
           1.<a
@@ -69,19 +73,23 @@
             target="_blank"
             rel="noopener noreferrer"
             ><u>Ojtheapp</u>
-            <i class="devicon-github-original-wordmark"></i>
           </a>
         </h2>
-        <span>
+        <p>
           This is a project that was built for solving a common issue for music
-          lovers using python with flask, it lets you download playlists from
+          lovers using python with flask,it lets you download playlists from
           spotify.This project leverages the Spotify API to fetch playlist
-          detailsand downloads the associated tracks.</span
-        >
+          details and downloads the associated tracks.
+          <h5>(NOTE:- The inspiration behind this project:
+          <a href="https://youtu.be/BxV14h0kFs0?si=8Y_lAWp2EY-Evu2V"
+            target="_blank" rel="noopener noreferrer">Tom Scott</a
+          >)</h5>
+        </p>
         <br />
         <h3>Languages used:</h3>
 
-        <i class="devicon-python-plain colored"></i>
+        <i class="devicon-python-plain"></i>
+
         <i class="devicon-flask-original-wordmark colored"></i>
       </div>
       <div class="todowebapp">
@@ -94,6 +102,25 @@
       </div>
     </div>
     <hr />
-    <div class="footer"></div>
+    <div class="footer">
+      <div class="bottom-navigation">
+        <a class="bottom-about" href="/#aboutsection">ABOUT</a>
+        <a
+          class="source-code"
+          href="https://github.com/JustAnOj/Portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Source-code</a
+        >
+        <a class="bottom-project" href="/#myprojects">MY-PROJECTS</a>
+      </div>
+      <hr />
+      <div class="socials">
+        <a href="" target="_blank" rel="noopener noreferrer"
+          ><i class="devicon-github-original"></i
+        ></a>
+        
+      </div>
+    </div>
   </body>
 </html>

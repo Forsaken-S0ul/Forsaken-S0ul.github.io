@@ -2,11 +2,11 @@ body{
     background-color: #1a1a1a;
     font-family: Arial, Helvetica, sans-serif;
 }
-.homesection{
+#homesection{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
+    margin-bottom: 30px;
 }
 .HomeBar{
     display: flex;  
@@ -42,12 +42,13 @@ hr {
     height: 1px; 
     background: linear-gradient(to right, black 0%, black 45%, transparent 45%, transparent 100%);
   }
-.aboutsection{
+#aboutsection{
     height: 100vh;
     display: flex;
     gap: 25px;
     align-items: center;
-
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .my-description{
     display: flex;
@@ -57,7 +58,7 @@ hr {
     text-align: center ;
     margin-bottom: 140px;
 }
-#aboutheading{
+.aboutheading{
     margin-bottom: 5px;
     font-size: 30px;
     align-self: center;
@@ -66,21 +67,23 @@ hr {
     align-self: center;
     font-size: 20px;
 }
-.myprojects{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-#projectsstart{
+.projectsstart{
     text-align: center;
 }
-.myprojects .ojtheapp{
-    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
-    height: 300px;
+#myprojects{
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .ojtheapp{
+    height: 80vh;
+    width: 400px;
     font-size: 15px;
-    margin-left: 15px;
+    margin-left: 20px;
+    border: 0.3px solid silver;
+    padding-left: 10px;
+
 }
 
 i{
@@ -92,16 +95,41 @@ i.devicon-github-original-wordmark {
     font-size: 30px;
 }
 .todowebapp{
-    margin-left: 15px;
-    height: 100px;
-    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
-
+    border: 0.3px solid silver;
+    width: 400px;
+    height: 80vh;
+    padding-left: 10px;
 }
 
 .game{
-    margin-left: 15px;
+    border: 0.3px solid silver;
+    width: 400px;
+    height: 80vh;
+    padding-left: 10px;
+}
+.footer{
+    text-align: center;
+}
+.bottom-navigation{
+    display: flex;
+    gap: 50px;
+    align-items: center;
     height: 100px;
-    background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.1) 50%, transparent 100%);
+}
+.bottom-about{
+    margin-left: auto;
+}
+.bottom-project{
+    margin-right: auto;
+}
+.socials{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+i.devicon-github-original{
+    font-size: 25px;
+    align-self: center;
 }
 
 
