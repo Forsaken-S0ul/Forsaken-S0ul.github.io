@@ -11,7 +11,7 @@ body{
 .HomeBar{
     display: flex;  
     border-bottom: 0.3px solid silver;
-    height: 50px;
+    height: 70px;
     justify-content: space-between;
     align-items: center;
 }
@@ -21,9 +21,7 @@ ul.navigation{
     gap: 90px;
     list-style-type: none;
 }
-.OJ-LOGO{
-    margin-left: 50px;
-}
+
 .homesection-mainpage{
     align-self: center;
     margin: auto;
@@ -127,7 +125,7 @@ i.devicon-github-original-wordmark {
 .socials{
     display: flex;
     text-align: center;
-    gap: 17px;
+    gap: 30px;
     justify-content: center;
 }
 i.devicon-github-original{
@@ -135,7 +133,32 @@ i.devicon-github-original{
     align-self: center;
 }
 .discord-icon{
-    height: 25px;
+    height: 30px;
     width: auto;
 }
+.linkedin-icon{
+    height: 30px;
+}
+.x-icon:hover{
+    filter: brightness(0) invert(1);
+}
+.discord-icon:hover{
+    filter: brightness(0) invert(1);
 
+}
+.linkedin-icon:hover{
+    filter: brightness(0) invert(1);
+
+}
+a {
+    text-decoration: none;
+    color: #ffffff; 
+    transition: color 0.3s, font-size 0.3s;
+  }
+  
+a:hover {
+    color: #575757;
+    font-size: 110%; 
+  }
+
+  
