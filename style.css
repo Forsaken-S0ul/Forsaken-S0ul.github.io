@@ -39,8 +39,10 @@ ul.navigation{
     overflow: hidden; 
 }
 hr {
+    border: none; 
     height: 1px; 
-    background: linear-gradient(to right, black 0%, black 45%, transparent 45%, transparent 100%);
+    background: linear-gradient(to right, transparent, white, transparent);
+      
   }
 #aboutsection{
     height: 100vh;
@@ -125,11 +127,15 @@ i.devicon-github-original-wordmark {
 .socials{
     display: flex;
     text-align: center;
+    gap: 17px;
     justify-content: center;
 }
 i.devicon-github-original{
     font-size: 25px;
     align-self: center;
 }
-
+.discord-icon{
+    height: 25px;
+    width: auto;
+}
 
