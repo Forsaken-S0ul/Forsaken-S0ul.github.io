@@ -66,6 +66,8 @@ hr {
 .bio{
     align-self: center;
     font-size: 20px;
+    text-align: left;
+    margin: 30px;
 }
 .projectsstart{
     text-align: center;
@@ -148,7 +150,6 @@ i.devicon-github-original{
 }
 .linkedin-icon:hover{
     filter: brightness(0) invert(1);
-
 }
 a {
     text-decoration: none;
